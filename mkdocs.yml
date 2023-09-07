@@ -1,0 +1,132 @@
+site_name: Grupo 8 - Twitch
+repo_url: https://github.com/Requisitos-de-Software/2023.1-Twitch
+repo_name: Requisitos-de-Software/2023.1-Twitch
+
+theme:
+  name: material
+  language: pt
+  logo: ./planejamento/imagens/twitch_icon.png
+  favicon: ./planejamento/imagens/twitch_icon.png
+  features:
+    - navigation.footer
+    - header.autohide
+
+  plugins:
+    - mkdocs-video
+  
+  favicon: ./assets/twitch_icon.png
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Início: index.md
+  - Planejamento:   
+    - Cronograma: ./planejamento/cronograma.md
+    - Cronograma Realizado: ./planejamento/cronograma_realizado.md
+    - Ferramentas: ./planejamento/ferramentas.md
+    - Metodologias: ./planejamento/scrum_adaptado.md
+  - Pré-Rastreabilidade:
+    - Rich Picture: ./pre_rastreabilidade/rich_picture.md
+  - Elicitação:
+    - Perfis de Usuário: ./elicitacao/perfis_usuario.md
+    - Personas: ./elicitacao/personas.md
+    - Técnicas:
+      - Brainstorm: ./elicitacao/tecnicas/Brainstorm.md
+      - Observação: ./elicitacao/tecnicas/observacao.md
+      - Análise Documental: ./elicitacao/tecnicas/AnaliseDeDocumento.md
+    - Priorização: ./elicitacao/priorizacao.md
+  - Modelagem: 
+    - Cenários: ./modelagem/cenarios.md
+    - Léxico: ./modelagem/lexico.md
+    - Use Case: ./modelagem/usecase.md
+    - Especificação Suplementar: ./modelagem/esp_suplementar.md
+    - User Stories: ./modelagem/user_stories.md
+    - NFR Framework: ./modelagem/nfr.md
+    - Backlog do produto: ./modelagem/backlog.md
+  - Verificação Grupo 01:
+    - Planejamento da Verificação: ./verificacao_grupo01/planejamento.md
+    - Entrega 1 - Planejamento:
+      - Aplicativo Escolhido: ./verificacao_grupo01/verifica01_aplicativo_escolhido.md
+      - Cronograma: ./verificacao_grupo01/verifica01_cronograma.md
+      - Rich Picture: ./verificacao_grupo01/verificacao01_richpicture.md
+    - Entrega 2 - Elicitação:
+      - Perfil de Usuário: ./verificacao_grupo01/verifica01_perfilusuariov.md
+      - Personas: ./verificacao_grupo01/verifica01_personas.md
+      - Técnicas:
+        - Introspecção: ./verificacao_grupo01/verifica01_introspeccao.md
+        - Brainstorming: ./verificacao_grupo01/brainstorm_v.md
+        - Questionário: ./verificacao_grupo01/verificacao01_questionario.md
+        - Observação: ./verificacao_grupo01/verifica01_observacao.md
+      - Priorização:
+        - Técnica de Priorização $100: ./verificacao_grupo01/verifica01_$100.md
+        - Técnica de Priorização First Thing First: ./verificacao_grupo01/first_v.md
+        - Técnica de Priorização Three Level Scale: ./verificacao_grupo01/verifica01_threelevelscale.md
+    - Entrega 3 - Modelagem de Requisitos:
+      - Especificação Suplementar: ./verificacao_grupo01/verifica01_espsuplementar.md
+      - Cenários: ./verificacao_grupo01/verifica01_cenarios.md
+      - Léxicos: ./verificacao_grupo01/verificacao01_lexicos.md
+      - Casos de uso: ./verificacao_grupo01/verifica01_casos_uso.md
+    - Entrega 4 - Modelagem de Requisitos (Ágil):
+      - NFR Framework: ./verificacao_grupo01/verificacao01_nfr.md
+      - Histórias de Usuário: ./verificacao_grupo01/userstory_v.md
+      - Backlog: ./verificacao_grupo01/verifica01_backlog.md
+  - Verificação e Validação Grupo 08:
+    - Planejamento da Verificação e da Validação: ./verifica_valida_grupo08/planejamento.md
+    - Entrega 1 - Planejamento:
+      - Cronograma: ./verifica_valida_grupo08/verificacao_cronograma08.md
+      - Ferramentas: ./verifica_valida_grupo08/verificacao_ferramentas08.md
+      - Rich Picture: ./verifica_valida_grupo08/verificacao_richpicture08.md
+    - Entrega 2 - Elicitação:
+      - Perfis de Usuário: ./verifica_valida_grupo08/verificacao_perfis_usuario.md
+      - Personas: ./verifica_valida_grupo08/verificacao_personas.md
+      - Cenários: ./verifica_valida_grupo08/verificacao_cenarios.md
+      - Técnicas:
+        - Brainstorm: ./verifica_valida_grupo08/verificacao_brainstorm08.md
+        - Observação: ./verifica_valida_grupo08/verificacao_observacao.md
+        - Análise Documental: ./verifica_valida_grupo08/verifica_analise_doc.md
+      - Priorização:
+        - Técnica de Priorização Three Level Scale: ./verifica_valida_grupo08/verifica_threelevelscale.md
+        - Técnica de Priorização MosCow: ./verifica_valida_grupo08/verificacao_moscow08.md
+        - Técnica de Priorização First Thing First: ./verifica_valida_grupo08/verificacao_ftf.md
+    - Entrega 3 - Modelagem de Requisitos:
+      - Especificação Suplementar: ./verifica_valida_grupo08/verificacao_esp_sup.md
+      - Léxicos: ./verifica_valida_grupo08/verificacao_lexicos08.md
+      - Casos de Uso: ./verifica_valida_grupo08/verificacao_usecase08.md
+    - Entrega 4 - Modelagem de Requisitos (Ágil):
+      - NFR Framework: ./verifica_valida_grupo08/verificacao_nfr.md
+      - Histórias de Usuário: ./verifica_valida_grupo08/verifica_userstory.md
+      - Backlog: ./verifica_valida_grupo08/verifica_backlog.md
+    - Validação: ./verifica_valida_grupo08/validacao.md
+  - Pós Rastreabilidade:
+    - Backward From: ./pos_rastreabilidade/backward_from.md
+    - Forward From: ./pos_rastreabilidade/forward_from.md
+    - Matriz de Rastreablidade: ./pos_rastreabilidade/matriz_rastreabilidade.md
+  - Atas de reunião: 
+    - Reunião 1: ./atas/reuniao_1.md
+    - Reunião 2: ./atas/reuniao_2.md
+    - Reunião 3: ./atas/reuniao_3.md
+    - Reunião 4: ./atas/reuniao_4.md
+    - Reunião 5: ./atas/reuniao_5.md
+    - Reunião 6: ./atas/reuniao_6.md
+    - Reunião 7: ./atas/reuniao_7.md
+    - Reunião 8: ./atas/reuniao_8.md
+  - Apresentações: ./apresentacoes.md
+  - Regras de Colaboração: ./colab.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
